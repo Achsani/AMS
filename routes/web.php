@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/index', 'TransactionController@index');
+Route::get('search', 'TransactionController@index');
+Route::get('search/{uniqueCode}', 'TransactionController@check');
+Route::post('search', 'TransactionController@processForm');

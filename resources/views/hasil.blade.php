@@ -19,7 +19,7 @@
         <style>
             #uc {
                 text-align: : center;
-                margin-top: 25%; 
+                margin-top: 19%; 
             }
 
             #iUC {
@@ -31,8 +31,8 @@
 
             #pUC {
                 text-align: : center; 
-                color: grey;
-                font-size: 24px; 
+                color: black;
+                font-size: 28px; 
             }
         </style>
     </head>
